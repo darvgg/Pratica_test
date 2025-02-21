@@ -15,7 +15,7 @@ describe("FizzBuzz", () => {
   });
 
   it("Deberia generar el primer fizzbuzz", () => {
-    expect(fizzBuzz(15)).toEqual("fizzbuzz");
+    expect(fizzBuzz(30)).toEqual("fizzbuzz");
   });
 
 });
