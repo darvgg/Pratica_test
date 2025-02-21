@@ -9,4 +9,8 @@ describe("FizzBuzz", () => {
     expect(fizzbuzz(3)).toEqual("fizz");
   });
 
+  it("Deberia generar el primer buzz", () => {
+    expect(fizzbuzz(3)).toEqual("buzz");
+  });
+
 });
